@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1wZpDxRwcEzr0tVOvSe6Nhccrt_pPjZu3
 """
 
-!pip install requests beautifulsoup4 pandas --upgrade
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
