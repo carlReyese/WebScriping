@@ -27,7 +27,7 @@ def scraper_poblacion():
     soup = BeautifulSoup(respuesta.text, 'html.parser')
 
     # 4. Buscar la tabla (Wikipedia suele usar la clase 'wikitable')
-    tabla = soup.find('table', {'class': 'wikitable'})
+    tabla = soup.find('table', {'class': 'establishment'})
 
     # 5. Extraer filas
     filas = []
